@@ -1,11 +1,11 @@
 <?php
 
-namespace app\modules\googleShopping\controllers\admin;
+namespace panix\mod\google\shopping\controllers\admin;
 
 use Yii;
 use yii\helpers\Html;
-use app\modules\googleShopping\models\GoogleShoppingFeeds;
-use app\modules\googleShopping\models\search\GoogleShoppingFeedsSearch;
+use panix\mod\google\shopping\models\GoogleShoppingFeeds;
+use panix\mod\google\shopping\models\search\GoogleShoppingFeedsSearch;
 use panix\engine\controllers\AdminController;
 
 

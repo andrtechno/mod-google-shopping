@@ -1,0 +1,16 @@
+{
+    "name": "panix/mod-google-shopping",
+    "description": "PIXELION CMS module google shopping",
+    "keywords": ["pixelion-cms"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "theiconic/php-ga-measurement-protocol": "2.7.*",
+    },
+    "autoload": {
+        "psr-4": {
+            "panix\\mod\\google\\shopping\\": ""
+        }
+    }
+}

@@ -1,10 +1,10 @@
 <?php
 
-namespace app\modules\googleShopping\controllers\admin;
+namespace panix\mod\google\shopping\controllers\admin;
 
 use Yii;
 use panix\engine\controllers\AdminController;
-use app\modules\googleShopping\models\forms\SettingsForm;
+use panix\mod\google\shopping\models\forms\SettingsForm;
 
 class SettingsController extends AdminController
 {

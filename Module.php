@@ -1,6 +1,6 @@
 <?php
 
-namespace app\modules\googleShopping;
+namespace panix\mod\google\shopping;
 
 use Yii;
 use panix\engine\WebModule;

@@ -1,6 +1,6 @@
 <?php
 
-namespace app\modules\googleShopping\models\forms;
+namespace panix\mod\google\shopping\models\forms;
 
 use panix\engine\SettingsModel;
 

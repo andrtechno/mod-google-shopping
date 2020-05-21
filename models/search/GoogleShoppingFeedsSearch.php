@@ -1,8 +1,8 @@
 <?php
 
-namespace app\modules\googleShopping\models\search;
+namespace panix\mod\google\shopping\models\search;
 
-use app\modules\googleShopping\models\GoogleShoppingFeeds;
+use panix\mod\google\shopping\models\GoogleShoppingFeeds;
 use Yii;
 use yii\base\Model;
 use panix\engine\data\ActiveDataProvider;

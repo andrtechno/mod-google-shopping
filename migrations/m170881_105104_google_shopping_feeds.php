@@ -1,8 +1,8 @@
 <?php
-namespace app\modules\googleShopping\migrations;
+namespace panix\mod\google\shopping\migrations;
 
 use yii\db\Migration;
-use app\modules\googleShopping\models\GoogleShoppingFeeds;
+use panix\mod\google\shopping\models\GoogleShoppingFeeds;
 
 class m170881_105104_google_shopping_feeds extends Migration {
 

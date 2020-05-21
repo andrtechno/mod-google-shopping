@@ -1,6 +1,6 @@
 <?php
 
-namespace app\modules\googleShopping\models;
+namespace panix\mod\google\shopping\models;
 
 use Yii;
 use panix\engine\behaviors\TranslateBehavior;

@@ -1,6 +1,6 @@
 <?php
 
-namespace app\modules\googleShopping\models\query;
+namespace panix\mod\google\shopping\models\query;
 
 class GoogleShoppingFeedsQuery extends \yii\db\ActiveQuery {
 
