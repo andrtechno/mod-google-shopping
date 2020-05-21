@@ -6,7 +6,7 @@
     "license": "MIT",
     "minimum-stability": "dev",
     "require": {
-        "theiconic/php-ga-measurement-protocol": "2.7.*",
+        "theiconic/php-ga-measurement-protocol": "2.7.*"
     },
     "autoload": {
         "psr-4": {
