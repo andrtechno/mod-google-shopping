@@ -18,8 +18,8 @@ class Module extends WebModule
             'modules' => [
                 'items' => [
                     [
-                        'label' => Yii::t('googleShopping/default', 'MODULE_NAME'),
-                        "url" => ['/admin/googleShopping'],
+                        'label' => Yii::t('googleshopping/default', 'MODULE_NAME'),
+                        "url" => ['/admin/googleshopping'],
                         'icon' => 'images'
                     ],
                 ],
@@ -31,12 +31,12 @@ class Module extends WebModule
     public function getInfo()
     {
         return [
-            'label' => Yii::t('googleShopping/default', 'MODULE_NAME'),
+            'label' => Yii::t('googleshopping/default', 'MODULE_NAME'),
             'author' => 'andrew.panix@gmail.com',
             'version' => '1.0',
             'icon' => $this->icon,
-            'description' => Yii::t('googleShopping/default', 'MODULE_DESC'),
-            'url' => ['/admin/googleShopping'],
+            'description' => Yii::t('googleshopping/default', 'MODULE_DESC'),
+            'url' => ['/admin/googleshopping'],
         ];
     }
 
