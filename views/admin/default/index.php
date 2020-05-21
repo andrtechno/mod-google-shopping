@@ -15,9 +15,10 @@ echo Html::a('merchants.google.com','https://merchants.google.com/');
 
 $client = new Google_Client();
 $client->setApplicationName("Client_Library_Examples");
-$client->setDeveloperKey("89eb66990467cad769f0f3510f1c0af94b1a7ba9");
-$service = new Google_Service_Books($client);
-\panix\engine\CMS::dump($service);
+$client->setDeveloperKey("");
+$service = new Google_Service_Gmail($client);
+
+\panix\engine\CMS::dump($service->users_messages);
 Pjax::begin([
     'dataProvider' => $dataProvider,
 ]);
