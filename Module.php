@@ -8,7 +8,7 @@ use panix\engine\WebModule;
 class Module extends WebModule
 {
 
-
+    public $icon = 'google';
     public $marchentId = 235811972;
     public $accountId = '';
 
@@ -20,7 +20,7 @@ class Module extends WebModule
                     [
                         'label' => Yii::t('googleshopping/default', 'MODULE_NAME'),
                         "url" => ['/admin/googleshopping'],
-                        'icon' => 'images'
+                        'icon' => $this->icon
                     ],
                 ],
             ],
