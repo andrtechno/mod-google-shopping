@@ -20,8 +20,7 @@ class Module extends WebModule
                     [
                         'label' => Yii::t('googleshopping/default', 'MODULE_NAME'),
                         "url" => ['/admin/googleshopping'],
-                        'icon' => 'images',
-                        'visible' => Yii::$app->user->can('/googleshopping/admin/default/index') || Yii::$app->user->can('/googleshopping/admin/default/*'),
+                        'icon' => 'images'
                     ],
                 ],
             ],
