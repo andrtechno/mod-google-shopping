@@ -34,6 +34,22 @@ to the require section of your `composer.json` file.
 ```
 php yii migrate --migrationPath=vendor/panix/mod-google-shopping/migrations
 ```
+
+1. Add the component configuration in your `main.php` config file:
+```php
+'components' => [
+    'ga' => [
+        'class' => 'panix\mod\google\shopping\components\MeasurementProtocol',
+        'tracking_id' => 'UA-XXXX-Y', // Put your real tracking ID here
+
+        // These parameters are optional:
+        'use_ssl' => true, // If you’d like to use a secure connection to Google servers
+        'override_ip' => false, // By default, IP is overridden by the user’s one, but you can disable this
+        'anonymize_ip' => true, // If you want to anonymize the sender’s IP address
+        'async_mode' => true, // Enables the asynchronous mode (see below)
+        'autoset_client_id' => true, // Try to set ClientId automatically from the “_ga” cookie (disabled by default)
+    ],
+],
 ```
 
 Thats all!
