@@ -39,7 +39,7 @@ class DefaultController extends AdminController
                 'options' => ['class' => 'btn btn-success']
             ]
         ];
-        $this->breadcrumbs = [
+        $this->view->params['breadcrumbs'] = [
             $this->pageName
         ];
 
@@ -76,15 +76,15 @@ class DefaultController extends AdminController
             'options' => ['class' => 'btn btn-success']
         ];
 
-        $this->breadcrumbs[] = [
+        $this->view->params['breadcrumbs'][] = [
             'label' => $this->pageName,
             'url' => ['index']
         ];
-        $this->breadcrumbs[] = [
+        $this->view->params['breadcrumbs'][] = [
             'label' => Yii::t('shop/admin', 'PRODUCTS'),
             'url' => ['index']
         ];
-        $this->breadcrumbs[] = Yii::t('app', 'UPDATE');
+        $this->view->params['breadcrumbs'][] = Yii::t('app', 'UPDATE');
         $post = Yii::$app->request->post();
 
 
